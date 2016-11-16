@@ -1,0 +1,139 @@
+body {
+  background: #0000FF;
+}
+
+#main-div {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #1E90FF;
+  border: 5px solid green;
+  border-radius: 10px;
+}
+
+#main-header {
+  margin-bottom: 30px;
+}
+
+#main-navbar {}
+
+#main-searchbar {
+  margin: 10px 10px 10px 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 5px lightgray;
+  border-radius: 10px;
+  height: 45px;
+}
+
+#search-icon {
+  margin-top: 7px;
+  float: left;
+}
+
+#searchbar-form-div {
+  width: 90%;
+  float: left;
+  margin-left: 29px;
+}
+
+#main-content {}
+
+#navbar-ul {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#navbar-ul li {
+  list-style-type: none;
+  background-color: #8ED9ED;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+#navbar-ul li:first-child {
+  border-right: solid white 2px;
+}
+
+#navbar-ul li:last-child {
+  border-left: solid white 2px;
+}
+#navbar-ul li:hover {
+  background-color: #5E9CAD;
+}
+
+.selected {
+  background-color: #337D91 !important;
+}
+
+#users-ul {
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#users-ul li{
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 1px;
+  height: 100px;
+  border: 5px solid cyan;
+  border-radius: 10px;
+}
+#users-ul li:hover{
+  background-color: floralwhite;
+  cursor: pointer;
+}
+.user-picture {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.user-title {
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.user-topic {
+  font-size: 14px;
+  line-height: 2px;
+}
+.user-status-live {
+  float: right;
+  color: green;
+}
+
+.user-status-not-live {
+  float: right;
+  color: red;
+}
+
+#header {
+  text-align: center;
+  color: darkseagreen;
+  font-size: 60px;
+  font-family: 'Lobster';
+}
+
+.clear {
+  float: none;
+}
+@media (max-width: 800px) {
+  body {
+    min-width: 800px;
+  }
+}
+
+#loading {
+  margin-left: 10px;
+  text-align: center;
+}
+.row {
+  margin: 0;
+}

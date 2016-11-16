@@ -1,0 +1,3 @@
+A program also created as a project for the freecodecamp.com Front-End-Developer course. Using Codepen.io and written in HTML CSS and Javascript, a simple JSON Viewer, nothing fancy it allows you to type in a keyword and brings up info on anyone listed in the code that is on freecodecamp.com, however it eems to have lost its connection to the site, so nothing shows in the main screen. It can be found at <a href="http://www.ggetchell.com/zipline-use-the-twitch-tv-json-api/index.html">Twitch json TV Viewer API</a>
+
+ 
